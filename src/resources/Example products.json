@@ -1,0 +1,158 @@
+[
+  {
+    "name": "Monstera Deliciosa",
+    "price": 3600,
+    "description": "The Monstera Deliciosa, often called the Swiss Cheese Plant, is a tropical icon known for its unique, fenestrated leaves. It's a relatively easy-to-care-for statement piece that brings a lush, jungle vibe to any room.",
+    "discount": "20%",
+    "discountedPrice": 2880,
+    "category": "Indoor Plant",
+    "rating": 4.8,
+    "careGuide": {
+      "Light": "Bright, indirect sunlight. Avoid direct sun.",
+      "Water": "Water every 1-2 weeks, allowing soil to dry out between waterings.",
+      "Humidity": "Prefers humid conditions. Mist regularly."
+    },
+    "shippingDetails": "Ships within 3-5 business days. We offer a 14-day return policy on all plants if they arrive damaged.",
+    "imageUrl": ["url1", "url2", "url3"],
+    "reviews": 14,
+    "inStock": true,
+    "currency": "₹"
+  },
+  {
+    "name": "Snake Plant",
+    "price": 1200,
+    "description": "The Snake Plant (Sansevieria trifasciata) is nearly indestructible—perfect for beginners. It tolerates low light and infrequent watering, while its upright form adds architectural interest.",
+    "discount": "10%",
+    "discountedPrice": 1080,
+    "category": "Indoor Plant",
+    "rating": 4.6,
+    "careGuide": {
+      "Light": "Bright to low indirect light. Tolerates shade.",
+      "Water": "Water every 2–3 weeks; let soil dry out between waterings.",
+      "Soil": "Well-draining potting mix; avoid waterlogged soil."
+    },
+    "shippingDetails": "Ships within 2–4 business days. 14-day return policy if damaged on arrival.",
+    "imageUrl": [
+      "https://example.com/images/snake-plant-1.jpg",
+      "https://example.com/images/snake-plant-2.jpg"
+    ],
+    "reviews": 27,
+    "inStock": true,
+    "currency": "₹"
+  },
+  {
+    "name": "Fiddle Leaf Fig",
+    "price": 2500,
+    "description": "The Fiddle Leaf Fig (Ficus lyrata) features large, glossy leaves that bring drama to any space. It prefers bright, filtered light and consistent moisture.",
+    "discount": "15%",
+    "discountedPrice": 2125,
+    "category": "Indoor Plant",
+    "rating": 4.4,
+    "careGuide": {
+      "Light": "Bright, indirect sunlight near a window.",
+      "Water": "Water weekly when top 2 cm of soil feel dry.",
+      "Humidity": "Mist leaves or use a humidifier in dry climates.",
+      "Pruning": "Trim dead or yellowing leaves to encourage growth."
+    },
+    "shippingDetails": "Ships within 3–5 business days. 14-day damage guarantee applies.",
+    "imageUrl": [
+      "https://example.com/images/fiddle-fig-1.jpg",
+      "https://example.com/images/fiddle-fig-2.jpg",
+      "https://example.com/images/fiddle-fig-3.jpg"
+    ],
+    "reviews": 34,
+    "inStock": true,
+    "currency": "₹"
+  },
+  {
+    "name": "Aloe Vera",
+    "price": 800,
+    "description": "Aloe Vera is a hardy succulent prized for its soothing gel. It thrives in bright light and minimal watering, making it ideal for sunny windowsills.",
+    "discount": "0%",
+    "discountedPrice": 800,
+    "category": "Succulent",
+    "rating": 4.3,
+    "careGuide": {
+      "Light": "Full sun to partial shade.",
+      "Water": "Water every 3 weeks; reduce in winter.",
+      "Soil": "Use cactus/succulent mix for fast drainage.",
+      "Pot": "Ensure pot has drainage hole."
+    },
+    "shippingDetails": "Ships within 1–3 business days. 14-day return if plant arrives unhealthy.",
+    "imageUrl": [
+      "https://example.com/images/aloe-vera-1.jpg",
+      "https://example.com/images/aloe-vera-2.jpg"
+    ],
+    "reviews": 19,
+    "inStock": true,
+    "currency": "₹"
+  },
+  {
+    "name": "ZZ Plant",
+    "price": 1800,
+    "description": "The ZZ Plant (Zamioculcas zamiifolia) has glossy, dark green leaflets and tolerates a wide range of conditions. Perfect for low-light offices and rooms.",
+    "discount": "5%",
+    "discountedPrice": 1710,
+    "category": "Indoor Plant",
+    "rating": 4.5,
+    "careGuide": {
+      "Light": "Low to bright indirect light.",
+      "Water": "Water every 2–3 weeks; avoid overwatering.",
+      "Humidity": "Average home humidity is fine."
+    },
+    "shippingDetails": "Ships within 2–4 business days. Damaged-on-arrival returns accepted within 14 days.",
+    "imageUrl": [
+      "https://example.com/images/zz-plant-1.jpg",
+      "https://example.com/images/zz-plant-2.jpg"
+    ],
+    "reviews": 22,
+    "inStock": true,
+    "currency": "₹"
+  },
+  {
+    "name": "Pothos",
+    "price": 950,
+    "description": "Pothos (Epipremnum aureum) is a fast-growing vine with heart-shaped leaves. Extremely forgiving, it thrives in low light and can trail or climb.",
+    "discount": "20%",
+    "discountedPrice": 760,
+    "category": "Trailing Plant",
+    "rating": 4.7,
+    "careGuide": {
+      "Light": "Low to bright indirect light.",
+      "Water": "Water every 1–2 weeks; allow topsoil to dry.",
+      "Fertilizer": "Feed monthly with balanced houseplant fertilizer."
+    },
+    "shippingDetails": "Ships within 1–3 business days. 14-day health guarantee.",
+    "imageUrl": [
+      "https://example.com/images/pothos-1.jpg",
+      "https://example.com/images/pothos-2.jpg"
+    ],
+    "reviews": 45,
+    "inStock": true,
+    "currency": "₹"
+  },
+  {
+    "name": "Bonsai Ficus",
+    "price": 4500,
+    "description": "A Ficus Bonsai brings miniature serenity indoors. Requires bright light and precise watering, rewarding you with delicate branching and leaves.",
+    "discount": "25%",
+    "discountedPrice": 3375,
+    "category": "Indoor Plant",
+    "rating": 4.9,
+    "careGuide": {
+      "Light": "Bright, direct morning light is best.",
+      "Water": "Keep soil slightly moist; don't let it dry out completely.",
+      "Pruning": "Trim new shoots to maintain shape.",
+      "Soil": "Well-draining bonsai soil mix."
+    },
+    "shippingDetails": "Ships within 3–5 business days in climate-controlled packaging. 14-day return on arrival damage.",
+    "imageUrl": [
+      "https://example.com/images/bonsai-ficus-1.jpg",
+      "https://example.com/images/bonsai-ficus-2.jpg",
+      "https://example.com/images/bonsai-ficus-3.jpg"
+    ],
+    "reviews": 12,
+    "inStock": false,
+    "currency": "₹"
+  }
+]
