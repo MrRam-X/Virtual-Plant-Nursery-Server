@@ -6,12 +6,14 @@ import {
   updateProduct,
   deleteProduct,
   getFeaturedProducts,
+  getSimilarProducts,
 } from '../controllers/product.controller';
 
 const router = Router();
 
 router.get('/', getAllProducts);
 router.get('/featured', getFeaturedProducts);
+router.get('/similar', getSimilarProducts);
 router.get('/:id', getProductById);
 router.post('/', createProduct);
 router.patch('/:id', updateProduct);

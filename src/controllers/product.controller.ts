@@ -61,3 +61,22 @@ export const getFeaturedProducts = async (req: Request, res: Response) => {
     res.status(500).json({ error: "Internal server error" });
   }
 };
+
+// FIND TOP 4 NEWLY ADDED SIMILAR CATEGORY PRODUCTS
+export const getSimilarProducts = async (req: Request, res: Response) => {
+  try {
+    const category = req.query.category as string;
+    const limit = parseInt(req.query.limit as string) || 4;
+
+    if (!category) {
+      return res.status(400).json({ error: 'Category query param is required' });
+    }
+
+    const similar = await Product.find({ category }).sort({ createdAt: -1 }).limit(limit);
+
+    res.json(similar);
+  } catch (err) {
+    console.error('Error fetching similar products:', err);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+};
