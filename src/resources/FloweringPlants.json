@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Sunflower",
+    "scientificName": "Helianthus annuus",
+    "price": 900,
+    "description": "A tall annual plant with bright, sun-like blooms that follow the movement of the sun.",
+    "discount": "10%",
+    "discountedPrice": 810,
+    "category": "Flowering Plant",
+    "rating": 4.7,
+    "careGuide": {
+      "Light": "Full sunlight for 6–8 hours daily.",
+      "Water": "Water deeply once a week.",
+      "Soil": "Well-drained, nutrient-rich soil."
+    },
+    "shippingDetails": "Ships within 2–4 business days. 14-day return policy if damaged on arrival.",
+    "imageUrl": [
+      "https://drive.google.com/file/d/1Mt-PQSR0rOcg970jJVJYl5kH-B9QBDOb/view?usp=sharing",
+      "https://drive.google.com/file/d/1j_w5-fMbH-jVCKx9vPDmqWmBJPQdPfez/view?usp=sharing"
+    ],
+    "reviews": 35
+  },
+  {
+    "name": "Petunia",
+    "scientificName": "Petunia hybrida",
+    "price": 750,
+    "description": "A vibrant annual plant with colorful, trumpet-shaped blooms ideal for borders and hanging baskets.",
+    "discount": "10%",
+    "discountedPrice": 675,
+    "category": "Flowering Plant",
+    "rating": 4.5,
+    "careGuide": {
+      "Light": "Full sunlight for best blooms.",
+      "Water": "Water regularly but avoid waterlogging.",
+      "Soil": "Light, well-drained soil."
+    },
+    "shippingDetails": "Ships within 2–4 business days. 14-day return policy if damaged on arrival.",
+    "imageUrl": [
+      "https://drive.google.com/file/d/1S5vvEFs8s6RxcJsVR7RRAfINi0h_3tEZ/view?usp=sharing",
+      "https://drive.google.com/file/d/1W8cp3QFXVdLdftPKTFwevKZr6ynnq3q5/view?usp=sharing"
+    ],
+    "reviews": 28
+  },
+  {
+    "name": "Zinnia",
+    "scientificName": "Zinnia elegans",
+    "price": 600,
+    "description": "A fast-growing flower with bright, daisy-like blooms that attract butterflies.",
+    "discount": "10%",
+    "discountedPrice": 540,
+    "category": "Flowering Plant",
+    "rating": 4.6,
+    "careGuide": {
+      "Light": "Full sun exposure for maximum blooms.",
+      "Water": "Water deeply once or twice a week.",
+      "Soil": "Well-drained garden soil."
+    },
+    "shippingDetails": "Ships within 2–4 business days. 14-day return policy if damaged on arrival.",
+    "imageUrl": [
+      "https://drive.google.com/file/d/1cI84RW1EFjGme-hP9Kiom4MRV2T9v40B/view?usp=sharing",
+      "https://drive.google.com/file/d/1xba6ax1RlzEJ9VoGTHSccMJsjbeAp8_c/view?usp=sharing"
+    ],
+    "reviews": 22
+  },
+  {
+    "name": "Daffodil",
+    "scientificName": "Narcissus pseudonarcissus",
+    "price": 850,
+    "description": "A cheerful spring flower with bright yellow petals and a trumpet-like center.",
+    "discount": "10%",
+    "discountedPrice": 765,
+    "category": "Flowering Plant",
+    "rating": 4.8,
+    "careGuide": {
+      "Light": "Full sun to partial shade.",
+      "Water": "Water during growth; reduce after flowering.",
+      "Soil": "Well-drained, sandy loam."
+    },
+    "shippingDetails": "Ships within 2–4 business days. 14-day return policy if damaged on arrival.",
+    "imageUrl": [
+      "https://drive.google.com/file/d/1vGc7p7WgubMm2X4RAdpTtziGHQjVnAaN/view?usp=sharing",
+      "https://drive.google.com/file/d/1mOjtrRZZWZQzHPkXalFUwfp76O3-v9ls/view?usp=sharing"
+    ],
+    "reviews": 31
+  },
+  {
+    "name": "Geranium",
+    "scientificName": "Pelargonium spp.",
+    "price": 950,
+    "description": "A hardy plant with rounded leaves and clusters of colorful blooms.",
+    "discount": "10%",
+    "discountedPrice": 855,
+    "category": "Flowering Plant",
+    "rating": 4.4,
+    "careGuide": {
+      "Light": "Full sun for best flowering.",
+      "Water": "Moderate watering; let soil dry between.",
+      "Soil": "Loamy, well-draining soil."
+    },
+    "shippingDetails": "Ships within 2–4 business days. 14-day return policy if damaged on arrival.",
+    "imageUrl": [
+      "https://drive.google.com/file/d/1oSc_GIDihLokx_tv_T7YrcAK5M7HAmSx/view?usp=sharing",
+      "https://drive.google.com/file/d/1I0u5LcQK0ve2oq46965rbT6FM4vHcpC0/view?usp=sharing"
+    ],
+    "reviews": 26
+  }
+]
