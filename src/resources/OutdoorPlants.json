@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Bougainvillea",
+    "scientificName": "Bougainvillea glabra",
+    "price": 750,
+    "description": "A vibrant flowering plant perfect for adding color to gardens.",
+    "discount": "10%",
+    "discountedPrice": 675,
+    "category": "Outdoor Plants",
+    "rating": 4.6,
+    "careGuide": {
+      "light": "Full sunlight",
+      "water": "Water moderately; allow soil to dry slightly between watering",
+      "soil": "Well-draining sandy soil"
+    },
+    "shippingDetails": "Delivered within 5-7 business days in eco-friendly packaging.",
+    "imageUrl": [
+      "https://i.postimg.cc/vHn6nSf5/Bougainvillea-plant-1.jpg",
+      "https://i.postimg.cc/XvjZTjhg/Bougainvillea-plant-2.jpg"
+    ],
+    "reviews": 39,
+    "currency": "₹"
+  },
+  {
+    "name": "Hibiscus",
+    "scientificName": "Hibiscus rosa-sinensis",
+    "price": 800,
+    "description": "A tropical plant with large, colorful blooms that attract pollinators.",
+    "discount": "10%",
+    "discountedPrice": 720,
+    "category": "Outdoor Plants",
+    "rating": 4.7,
+    "careGuide": {
+      "light": "Full sunlight",
+      "water": "Keep soil moist, especially during blooming season",
+      "soil": "Well-drained, fertile soil"
+    },
+    "shippingDetails": "Delivered within 5-7 business days in eco-friendly packaging.",
+    "imageUrl": [
+      "https://i.postimg.cc/GpXBr0nn/Hibiscus-plant-1.jpg",
+      "https://i.postimg.cc/FHgdWdPR/hibiscus-plant-2.jpg"
+    ],
+    "reviews": 44,
+    "currency": "₹"
+  },
+  {
+    "name": "Marigold",
+    "scientificName": "Tagetes erecta",
+    "price": 400,
+    "description": "A cheerful and bright flowering plant that repels pests naturally.",
+    "discount": "10%",
+    "discountedPrice": 360,
+    "category": "Outdoor Plants",
+    "rating": 4.5,
+    "careGuide": {
+      "light": "Full sunlight",
+      "water": "Water regularly, keeping the soil moist but not soggy",
+      "soil": "Moderately fertile, well-draining soil"
+    },
+    "shippingDetails": "Delivered within 5-7 business days in eco-friendly packaging.",
+    "imageUrl": [
+      "https://i.postimg.cc/k4ZB6x5j/marigold-plant-1.jpg",
+      "https://i.postimg.cc/141XMsw-w/marigold-plant-2.jpg"
+    ],
+    "reviews": 27,
+    "currency": "₹"
+  },
+  {
+    "name": "Lavender",
+    "scientificName": "Lavandula angustifolia",
+    "price": 950,
+    "description": "A fragrant herb known for its calming scent and beautiful purple blooms.",
+    "discount": "10%",
+    "discountedPrice": 855,
+    "category": "Outdoor Plants",
+    "rating": 4.8,
+    "careGuide": {
+      "light": "Full sunlight",
+      "water": "Water sparingly; drought tolerant once established",
+      "soil": "Sandy, well-draining soil"
+    },
+    "shippingDetails": "Delivered within 5-7 business days in eco-friendly packaging.",
+    "imageUrl": [
+      "https://i.postimg.cc/L8Mg3B3w/Lavender-plant-1.jpg",
+      "https://i.postimg.cc/DZmSw-C7J/lavender-plant-2.jpg",
+      "https://i.postimg.cc/nrDMvCjn/Lavender-plant-3.jpg"
+    ],
+    "reviews": 31,
+    "currency": "₹"
+  },
+  {
+    "name": "Rose",
+    "scientificName": "Rosa",
+    "price": 1100,
+    "description": "A classic flowering plant loved for its beauty and fragrance.",
+    "discount": "10%",
+    "discountedPrice": 990,
+    "category": "Outdoor Plants",
+    "rating": 4.9,
+    "careGuide": {
+      "light": "Full sunlight",
+      "water": "Water deeply but infrequently; keep soil moist during blooming",
+      "soil": "Rich, well-draining soil"
+    },
+    "shippingDetails": "Delivered within 5-7 business days in eco-friendly packaging.",
+    "imageUrl": ["https://i.postimg.cc/kMB1t8sW-/rose-plant-1.jpg"],
+    "reviews": 56,
+    "currency": "₹"
+  }
+]

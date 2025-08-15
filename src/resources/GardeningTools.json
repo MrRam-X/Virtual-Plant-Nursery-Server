@@ -1,0 +1,117 @@
+[
+  {
+    "name": "Hand Trowel",
+    "scientificName": "",
+    "price": 750,
+    "description": "A versatile hand tool for digging small holes, transplanting seedlings, and loosening soil in pots or beds.",
+    "discount": "10%",
+    "discountedPrice": 675,
+    "category": "Gardening Tools",
+    "rating": 4.6,
+    "careGuide": {
+      "Usage": "Use for spot digging, potting, and transplanting.",
+      "Maintenance": "Rinse off soil and dry after each use; oil metal parts to prevent rust.",
+      "Storage": "Hang or store in a dry place away from moisture."
+    },
+    "shippingDetails": "Ships within 2–4 business days. 14-day return policy if damaged on arrival.",
+    "imageUrl": [
+      "https://i.postimg.cc/NF2SBrLq/hand-Trowel-1.jpg",
+      "https://i.postimg.cc/Cdyt1LfZ/hand-Trowel-2.jpg",
+      "https://i.postimg.cc/NjxgWZW8/hand-Trowel-3.jpg"
+    ],
+    "reviews": 34,
+    "currency": "₹"
+  },
+  {
+    "name": "Pruning Shears",
+    "scientificName": "",
+    "price": 1200,
+    "description": "Sharp handheld shears for trimming stems, shaping shrubs, and removing dead growth.",
+    "discount": "10%",
+    "discountedPrice": 1080,
+    "category": "Gardening Tools",
+    "rating": 4.8,
+    "careGuide": {
+      "Usage": "Cut at a 45° angle just above a node for clean healing.",
+      "Maintenance": "Wipe blades after use; sharpen and oil joints regularly.",
+      "Storage": "Lock the safety latch and store out of children’s reach."
+    },
+    "shippingDetails": "Ships within 2–4 business days. 14-day return policy if damaged on arrival.",
+    "imageUrl": [
+      "https://i.postimg.cc/jqWSLg7K/pruning-Shears-1.jpg",
+      "https://i.postimg.cc/bvNz83h7/pruning-Shears-2.jpg",
+      "https://i.postimg.cc/W1VNYsfb/pruning-Shears-3.jpg"
+    ],
+    "reviews": 47,
+    "currency": "₹"
+  },
+  {
+    "name": "Watering Can",
+    "scientificName": "",
+    "price": 950,
+    "description": "Balanced can with a gentle spout for even watering without disturbing soil.",
+    "discount": "10%",
+    "discountedPrice": 855,
+    "category": "Gardening Tools",
+    "rating": 4.5,
+    "careGuide": {
+      "Usage": "Water at the soil line to avoid wet leaves and fungal issues.",
+      "Maintenance": "Empty after use and rinse periodically to prevent algae.",
+      "Storage": "Keep in shade or indoors to extend life."
+    },
+    "shippingDetails": "Ships within 2–4 business days. 14-day return policy if damaged on arrival.",
+    "imageUrl": [
+      "https://i.postimg.cc/d0HJ0rQL/watering-Can-1.jpg",
+      "https://i.postimg.cc/gJ1dVpZp/watering-Can-2.jpg",
+      "https://i.postimg.cc/bY2qzZ7w/watering-Can-3.jpg"
+    ],
+    "reviews": 29,
+    "currency": "₹"
+  },
+  {
+    "name": "Garden Rake",
+    "scientificName": "",
+    "price": 1400,
+    "description": "Sturdy rake with long tines for clearing debris, leveling soil, and spreading mulch.",
+    "discount": "10%",
+    "discountedPrice": 1260,
+    "category": "Gardening Tools",
+    "rating": 4.4,
+    "careGuide": {
+      "Usage": "Use light, even strokes to gather leaves and break soil clumps.",
+      "Maintenance": "Brush off dirt; check and tighten handle fittings.",
+      "Storage": "Hang tines-up in a dry shed to avoid bending."
+    },
+    "shippingDetails": "Ships within 2–4 business days. 14-day return policy if damaged on arrival.",
+    "imageUrl": [
+      "https://i.postimg.cc/J4kCWSBD/garden-Rake-1.jpg",
+      "https://i.postimg.cc/J7gCvRtC/garden-Rake-2.jpg",
+      "https://i.postimg.cc/TPQZ96BS/garden-Rake-3.jpg"
+    ],
+    "reviews": 31,
+    "currency": "₹"
+  },
+  {
+    "name": "Garden Gloves",
+    "scientificName": "",
+    "price": 450,
+    "description": "Durable gloves that protect hands from thorns, dirt, and abrasion while gardening.",
+    "discount": "10%",
+    "discountedPrice": 405,
+    "category": "Gardening Tools",
+    "rating": 4.7,
+    "careGuide": {
+      "Usage": "Wear for pruning, repotting, and handling rough materials.",
+      "Maintenance": "Hand-wash or machine-wash as directed; air dry fully.",
+      "Storage": "Store dry to prevent mildew and odor."
+    },
+    "shippingDetails": "Ships within 2–4 business days. 14-day return policy if damaged on arrival.",
+    "imageUrl": [
+      "https://i.postimg.cc/5yHdyR7r/garden-Gloves-1.jpg",
+      "https://i.postimg.cc/YSt5Y9DY/garden-Gloves-2.jpg",
+      "https://i.postimg.cc/FHbtYcph/garden-Gloves-3.jpg"
+    ],
+    "reviews": 53,
+    "currency": "₹"
+  }
+]

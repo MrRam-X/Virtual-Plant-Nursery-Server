@@ -1,0 +1,104 @@
+[
+  {
+    "name": "Snake Plant",
+    "scientificName": "Sansevieria trifasciata",
+    "price": 850,
+    "description": "A hardy indoor plant that thrives on neglect and purifies the air.",
+    "discount": "10%",
+    "discountedPrice": 765,
+    "category": "Indoor Plants",
+    "rating": 4.7,
+    "careGuide": {
+      "light": "Low to bright indirect light",
+      "water": "Water every 2-3 weeks, allowing soil to dry between waterings",
+      "soil": "Well-draining potting mix"
+    },
+    "shippingDetails": "Delivered within 5-7 business days in eco-friendly packaging.",
+    "imageUrl": ["https://i.postimg.cc/yWC42Nf6/snake-plant.jpg"],
+    "reviews": 42,
+    "currency": "₹"
+  },
+  {
+    "name": "Spider Plant",
+    "scientificName": "Chlorophytum comosum",
+    "price": 650,
+    "description": "An easy-to-grow plant known for its arching leaves and air-purifying abilities.",
+    "discount": "10%",
+    "discountedPrice": 585,
+    "category": "Indoor Plants",
+    "rating": 4.5,
+    "careGuide": {
+      "light": "Bright indirect light",
+      "water": "Water once a week or when soil feels dry",
+      "soil": "Loamy, well-drained soil"
+    },
+    "shippingDetails": "Delivered within 5-7 business days in eco-friendly packaging.",
+    "imageUrl": ["https://i.postimg.cc/GhvHtTnQ/spider-plant-1.jpg"],
+    "reviews": 36,
+    "currency": "₹"
+  },
+  {
+    "name": "Pothos",
+    "scientificName": "Epipremnum aureum",
+    "price": 500,
+    "description": "A popular trailing vine that's low-maintenance and great for beginners.",
+    "discount": "10%",
+    "discountedPrice": 450,
+    "category": "Indoor Plants",
+    "rating": 4.6,
+    "careGuide": {
+      "light": "Low to bright indirect light",
+      "water": "Water every 1-2 weeks, let soil dry out between waterings",
+      "soil": "Well-draining potting mix"
+    },
+    "shippingDetails": "Delivered within 5-7 business days in eco-friendly packaging.",
+    "imageUrl": ["https://i.postimg.cc/1tTZcBwq/pothos-plant-1.jpg"],
+    "reviews": 51,
+    "currency": "₹"
+  },
+  {
+    "name": "Peace Lily",
+    "scientificName": "Spathiphyllum wallisii",
+    "price": 900,
+    "description": "An elegant indoor plant with white blooms and air-purifying qualities.",
+    "discount": "10%",
+    "discountedPrice": 810,
+    "category": "Indoor Plants",
+    "rating": 4.8,
+    "careGuide": {
+      "light": "Low to medium indirect light",
+      "water": "Keep soil consistently moist but not soggy",
+      "soil": "Rich, well-drained soil"
+    },
+    "shippingDetails": "Delivered within 5-7 business days in eco-friendly packaging.",
+    "imageUrl": [
+      "https://i.postimg.cc/s2Tz1s2K/peace-lily-1.jpg",
+      "https://i.postimg.cc/25S60Hbc/peace-lily-plant-pot.jpg",
+      "https://i.postimg.cc/1RngxYWb/peace-lily-studio.png"
+    ],
+    "reviews": 48,
+    "currency": "₹"
+  },
+  {
+    "name": "ZZ Plant",
+    "scientificName": "Zamioculcas zamiifolia",
+    "price": 1200,
+    "description": "A tough, drought-tolerant plant perfect for low-light conditions.",
+    "discount": "10%",
+    "discountedPrice": 1080,
+    "category": "Indoor Plants",
+    "rating": 4.9,
+    "careGuide": {
+      "light": "Low to bright indirect light",
+      "water": "Water every 2-3 weeks, let soil dry between waterings",
+      "soil": "Well-draining potting mix"
+    },
+    "shippingDetails": "Delivered within 5-7 business days in eco-friendly packaging.",
+    "imageUrl": [
+      "https://i.postimg.cc/3rsk3CVN/zz-plant-1.jpg",
+      "https://i.postimg.cc/7ZVhMv6J/zz-plant-2.jpg"
+    ],
+    "reviews": 33,
+    "currency": "₹"
+  }
+]

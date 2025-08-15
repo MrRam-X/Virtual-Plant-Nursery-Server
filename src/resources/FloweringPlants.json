@@ -2,106 +2,121 @@
   {
     "name": "Sunflower",
     "scientificName": "Helianthus annuus",
-    "price": 900,
-    "description": "A tall annual plant with bright, sun-like blooms that follow the movement of the sun.",
+    "price": 1500,
+    "description": "Bright yellow flowers that follow the sun, adding cheer to any garden.",
     "discount": "10%",
-    "discountedPrice": 810,
-    "category": "Flowering Plant",
-    "rating": 4.7,
+    "discountedPrice": 1350,
+    "category": "Flowering Plants",
+    "rating": 4.8,
     "careGuide": {
-      "Light": "Full sunlight for 6–8 hours daily.",
-      "Water": "Water deeply once a week.",
-      "Soil": "Well-drained, nutrient-rich soil."
+      "Light": "Full sun",
+      "Watering": "Moderate, keep soil moist",
+      "Soil": "Well-draining",
+      "Temperature": "18–25°C",
+      "Fertilizer": "Monthly during growing season"
     },
     "shippingDetails": "Ships within 2–4 business days. 14-day return policy if damaged on arrival.",
     "imageUrl": [
-      "https://drive.google.com/file/d/1Mt-PQSR0rOcg970jJVJYl5kH-B9QBDOb/view?usp=sharing",
-      "https://drive.google.com/file/d/1j_w5-fMbH-jVCKx9vPDmqWmBJPQdPfez/view?usp=sharing"
+      "https://i.postimg.cc/prb2tqR2/Sunflower-plant-1.jpg",
+      "https://i.postimg.cc/50FxGZc7/Sunflower-plant-2.jpg"
     ],
-    "reviews": 35
+    "reviews": 42,
+    "currency": "₹"
   },
   {
     "name": "Petunia",
-    "scientificName": "Petunia hybrida",
-    "price": 750,
-    "description": "A vibrant annual plant with colorful, trumpet-shaped blooms ideal for borders and hanging baskets.",
+    "scientificName": "Petunia × atkinsiana",
+    "price": 900,
+    "description": "Colorful trumpet-shaped flowers ideal for hanging baskets and borders.",
     "discount": "10%",
-    "discountedPrice": 675,
-    "category": "Flowering Plant",
-    "rating": 4.5,
+    "discountedPrice": 810,
+    "category": "Flowering Plants",
+    "rating": 4.6,
     "careGuide": {
-      "Light": "Full sunlight for best blooms.",
-      "Water": "Water regularly but avoid waterlogging.",
-      "Soil": "Light, well-drained soil."
+      "Light": "Full sun to partial shade",
+      "Watering": "Regular, keep soil moist",
+      "Soil": "Fertile, well-draining",
+      "Temperature": "15–25°C",
+      "Fertilizer": "Every 2 weeks"
     },
     "shippingDetails": "Ships within 2–4 business days. 14-day return policy if damaged on arrival.",
     "imageUrl": [
-      "https://drive.google.com/file/d/1S5vvEFs8s6RxcJsVR7RRAfINi0h_3tEZ/view?usp=sharing",
-      "https://drive.google.com/file/d/1W8cp3QFXVdLdftPKTFwevKZr6ynnq3q5/view?usp=sharing"
+      "https://i.postimg.cc/Dw2wZjs0/Petunia-plant-1.jpg",
+      "https://i.postimg.cc/Gpt3P4X1/Petunia-plant-2.jpg"
     ],
-    "reviews": 28
+    "reviews": 28,
+    "currency": "₹"
   },
   {
     "name": "Zinnia",
     "scientificName": "Zinnia elegans",
-    "price": 600,
-    "description": "A fast-growing flower with bright, daisy-like blooms that attract butterflies.",
+    "price": 700,
+    "description": "Bright, daisy-like flowers that bloom all summer long.",
     "discount": "10%",
-    "discountedPrice": 540,
-    "category": "Flowering Plant",
-    "rating": 4.6,
+    "discountedPrice": 630,
+    "category": "Flowering Plants",
+    "rating": 4.7,
     "careGuide": {
-      "Light": "Full sun exposure for maximum blooms.",
-      "Water": "Water deeply once or twice a week.",
-      "Soil": "Well-drained garden soil."
+      "Light": "Full sun",
+      "Watering": "Moderate",
+      "Soil": "Well-drained, fertile",
+      "Temperature": "20–30°C",
+      "Fertilizer": "Every 3 weeks"
     },
     "shippingDetails": "Ships within 2–4 business days. 14-day return policy if damaged on arrival.",
     "imageUrl": [
-      "https://drive.google.com/file/d/1cI84RW1EFjGme-hP9Kiom4MRV2T9v40B/view?usp=sharing",
-      "https://drive.google.com/file/d/1xba6ax1RlzEJ9VoGTHSccMJsjbeAp8_c/view?usp=sharing"
+      "https://i.postimg.cc/KjPmcB8t/Zinnia-plant-1.jpg",
+      "https://i.postimg.cc/MZV6Y2mX/Zinnia-plant-2.jpg"
     ],
-    "reviews": 22
+    "reviews": 35,
+    "currency": "₹"
   },
   {
     "name": "Daffodil",
     "scientificName": "Narcissus pseudonarcissus",
-    "price": 850,
-    "description": "A cheerful spring flower with bright yellow petals and a trumpet-like center.",
+    "price": 1100,
+    "description": "Charming yellow or white flowers that signal the arrival of spring.",
     "discount": "10%",
-    "discountedPrice": 765,
-    "category": "Flowering Plant",
-    "rating": 4.8,
+    "discountedPrice": 990,
+    "category": "Flowering Plants",
+    "rating": 4.5,
     "careGuide": {
-      "Light": "Full sun to partial shade.",
-      "Water": "Water during growth; reduce after flowering.",
-      "Soil": "Well-drained, sandy loam."
+      "Light": "Full sun to partial shade",
+      "Watering": "Moderate, avoid waterlogging",
+      "Soil": "Well-draining",
+      "Temperature": "10–20°C",
+      "Fertilizer": "Once in early spring"
     },
     "shippingDetails": "Ships within 2–4 business days. 14-day return policy if damaged on arrival.",
     "imageUrl": [
-      "https://drive.google.com/file/d/1vGc7p7WgubMm2X4RAdpTtziGHQjVnAaN/view?usp=sharing",
-      "https://drive.google.com/file/d/1mOjtrRZZWZQzHPkXalFUwfp76O3-v9ls/view?usp=sharing"
+      "https://i.postimg.cc/rF2m6FwS/Daffodil-plant-1.jpg",
+      "https://i.postimg.cc/tCYPBg7p/Daffodil-plant-2.jpg"
     ],
-    "reviews": 31
+    "reviews": 31,
+    "currency": "₹"
   },
   {
     "name": "Geranium",
-    "scientificName": "Pelargonium spp.",
+    "scientificName": "Pelargonium × hortorum",
     "price": 950,
-    "description": "A hardy plant with rounded leaves and clusters of colorful blooms.",
+    "description": "Fragrant flowers in pink, red, and white, perfect for pots and borders.",
     "discount": "10%",
     "discountedPrice": 855,
-    "category": "Flowering Plant",
-    "rating": 4.4,
+    "category": "Flowering Plants",
+    "rating": 4.6,
     "careGuide": {
-      "Light": "Full sun for best flowering.",
-      "Water": "Moderate watering; let soil dry between.",
-      "Soil": "Loamy, well-draining soil."
+      "Light": "Full sun",
+      "Watering": "Moderate, let soil dry slightly between watering",
+      "Soil": "Well-draining",
+      "Temperature": "15–25°C",
+      "Fertilizer": "Every 4 weeks"
     },
     "shippingDetails": "Ships within 2–4 business days. 14-day return policy if damaged on arrival.",
     "imageUrl": [
-      "https://drive.google.com/file/d/1oSc_GIDihLokx_tv_T7YrcAK5M7HAmSx/view?usp=sharing",
-      "https://drive.google.com/file/d/1I0u5LcQK0ve2oq46965rbT6FM4vHcpC0/view?usp=sharing"
+      "https://i.postimg.cc/5N5tfdXD/Geranium-plant-1.jpg",
+      "https://i.postimg.cc/sgwDZY9c/Geranium-plant-2.jpg"
     ],
-    "reviews": 26
+    "reviews": 26,
+    "currency": "₹"
   }
 ]

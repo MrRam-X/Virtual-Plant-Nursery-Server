@@ -1,0 +1,113 @@
+[
+  {
+    "name": "Aloe Vera",
+    "scientificName": "Aloe barbadensis Miller",
+    "price": 820,
+    "description": "A hardy succulent valued for its soothing gel and easy care.",
+    "discount": "10%",
+    "discountedPrice": 738,
+    "category": "Succulents and Cacti Plants",
+    "rating": 4.7,
+    "careGuide": {
+      "light": "Bright, indirect light or gentle morning sun.",
+      "water": "Water every 2–3 weeks; allow soil to dry completely.",
+      "soil": "Well-draining cactus/succulent mix."
+    },
+    "shippingDetails": "Delivered within 5-7 business days in eco-friendly packaging.",
+    "imageUrl": [
+      "https://i.postimg.cc/Bb42prD8/aloavera-plant-1.jpg",
+      "https://i.postimg.cc/15WD0Yzt/aloevera-plant-2.jpg"
+    ],
+    "reviews": 34,
+    "currency": "₹"
+  },
+  {
+    "name": "Jade Plant",
+    "scientificName": "Crassula ovata",
+    "price": 990,
+    "description": "A long-lived succulent with thick, oval leaves; great for desks and windowsills.",
+    "discount": "10%",
+    "discountedPrice": 891,
+    "category": "Succulents and Cacti Plants",
+    "rating": 4.5,
+    "careGuide": {
+      "light": "Bright light with a few hours of direct sun.",
+      "water": "Water when the top 2–3 cm of soil is dry.",
+      "soil": "Sandy, fast-draining mix."
+    },
+    "shippingDetails": "Delivered within 5-7 business days in eco-friendly packaging.",
+    "imageUrl": [
+      "https://i.postimg.cc/DZdXSxD7/jade-plant-1.jpg",
+      "https://i.postimg.cc/HnY7XQDX/jade-plant-2.jpg"
+    ],
+    "reviews": 29,
+    "currency": "₹"
+  },
+  {
+    "name": "Haworthia Zebra Plant",
+    "scientificName": "Haworthiopsis fasciata",
+    "price": 760,
+    "description": "A compact, striped succulent that thrives in low to medium light.",
+    "discount": "10%",
+    "discountedPrice": 684,
+    "category": "Succulents and Cacti Plants",
+    "rating": 4.6,
+    "careGuide": {
+      "light": "Bright, indirect light; tolerates lower light indoors.",
+      "water": "Water lightly every 2–3 weeks; avoid soggy soil.",
+      "soil": "Gritty, free-draining succulent mix."
+    },
+    "shippingDetails": "Delivered within 5-7 business days in eco-friendly packaging.",
+    "imageUrl": [
+      "https://i.postimg.cc/wvdNxCwW/Haworthiazebra-Plant-1.webp",
+      "https://i.postimg.cc/s2WSrj4Q/Haworthiazebra-Plant-2.webp"
+    ],
+    "reviews": 22,
+    "currency": "₹"
+  },
+  {
+    "name": "Echeveria",
+    "scientificName": "Echeveria elegans",
+    "price": 1150,
+    "description": "A rosette-forming succulent with fleshy leaves in soft pastel tones.",
+    "discount": "10%",
+    "discountedPrice": 1035,
+    "category": "Succulents and Cacti Plants",
+    "rating": 4.4,
+    "careGuide": {
+      "light": "Full sun to bright indirect light.",
+      "water": "Water sparingly; let soil dry fully between waterings.",
+      "soil": "Well-drained cactus/succulent mix."
+    },
+    "shippingDetails": "Delivered within 5-7 business days in eco-friendly packaging.",
+    "imageUrl": [
+      "https://i.postimg.cc/8kmRcCQL/Echeveria-plant-1.jpg",
+      "https://i.postimg.cc/9QKTKRZH/Echeveria-plant-2.jpg",
+      "https://i.postimg.cc/pLpzsY9B/Echeveria-plant-3.jpg"
+    ],
+    "reviews": 31,
+    "currency": "₹"
+  },
+  {
+    "name": "Barrel Cactus",
+    "scientificName": "Ferocactus",
+    "price": 1400,
+    "description": "A round, ribbed cactus with prominent spines; a striking low-maintenance accent.",
+    "discount": "10%",
+    "discountedPrice": 1260,
+    "category": "Succulents and Cacti Plants",
+    "rating": 4.8,
+    "careGuide": {
+      "light": "Full sun; place in the brightest spot available.",
+      "water": "Water monthly in the growing season; very little in winter.",
+      "soil": "Rocky, fast-draining cactus mix."
+    },
+    "shippingDetails": "Delivered within 5-7 business days in eco-friendly packaging.",
+    "imageUrl": [
+      "https://i.postimg.cc/PJyYRSzS/Barrel-Cactus-plant-1.jpg",
+      "https://i.postimg.cc/xTjKzSnh/Barrel-Cactus-plant-2.jpg"
+    ],
+    "reviews": 41,
+    "currency": "₹"
+  }
+]
