@@ -3,9 +3,32 @@ import { Product, IProduct } from "../models/product.model";
 import mongoose from "mongoose";
 
 // FIND ALL PRODUCTS
-export const getAllProducts = async (_req: Request, res: Response) => {
-  const products = await Product.find();
-  res.json(products);
+export const getAllProducts = async (req: Request, res: Response) => {
+  try {
+    const page = Math.max(parseInt(req.query.page as string) || 1, 1);
+    const limit = Math.max(parseInt(req.query.limit as string) || 9, 1);
+    const skip = (page - 1) * limit;
+
+    const [products, total] = await Promise.all([
+      Product.find().skip(skip).limit(limit).lean(),
+      Product.countDocuments(),
+    ]);
+
+    const totalPages = Math.ceil(total / limit);
+
+    res.json({
+      page,
+      limit,
+      total,
+      totalPages,
+      hasPrev: page > 1,
+      hasNext: page < totalPages,
+      data: products,
+    });
+  } catch (err) {
+    console.error("Error fetching products:", err);
+    res.status(500).json({ message: "Failed to fetch products" });
+  }
 };
 
 // FIND A PARTICULAR PRODUCT
@@ -69,14 +92,18 @@ export const getSimilarProducts = async (req: Request, res: Response) => {
     const limit = parseInt(req.query.limit as string) || 4;
 
     if (!category) {
-      return res.status(400).json({ error: 'Category query param is required' });
+      return res
+        .status(400)
+        .json({ error: "Category query param is required" });
     }
 
-    const similar = await Product.find({ category }).sort({ createdAt: -1 }).limit(limit);
+    const similar = await Product.find({ category })
+      .sort({ createdAt: -1 })
+      .limit(limit);
 
     res.json(similar);
   } catch (err) {
-    console.error('Error fetching similar products:', err);
-    res.status(500).json({ error: 'Internal server error' });
+    console.error("Error fetching similar products:", err);
+    res.status(500).json({ error: "Internal server error" });
   }
 };
