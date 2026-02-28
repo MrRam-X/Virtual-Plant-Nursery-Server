@@ -2,16 +2,36 @@ import { Request, Response } from "express";
 import { Product, IProduct } from "../models/product.model";
 import mongoose from "mongoose";
 
-// FIND ALL PRODUCTS
 export const getAllProducts = async (req: Request, res: Response) => {
   try {
     const page = Math.max(parseInt(req.query.page as string) || 1, 1);
     const limit = Math.max(parseInt(req.query.limit as string) || 9, 1);
     const skip = (page - 1) * limit;
 
+    const { category, min, max } = req.query;
+
+    // Dynamic filter object
+    const filter: any = {};
+
+    // Category filter (multi-select)
+    if (category) {
+      const categories = Array.isArray(category) ? category : [category];
+      filter.category = { $in: categories };
+    }
+
+    // Price range filter
+    if (min || max) {
+      filter.discountedPrice = {};
+      if (min) filter.discountedPrice.$gte = Number(min);
+      if (max) filter.discountedPrice.$lte = Number(max);
+    }
+
     const [products, total] = await Promise.all([
-      Product.find().skip(skip).limit(limit).lean(),
-      Product.countDocuments(),
+      Product.find(filter)
+        .skip(skip)
+        .limit(limit)
+        .lean(),
+      Product.countDocuments(filter),
     ]);
 
     const totalPages = Math.ceil(total / limit);
@@ -56,7 +76,7 @@ export const updateProduct = async (req: Request, res: Response) => {
   const updated = await Product.findByIdAndUpdate(
     id,
     { $set: data },
-    { new: true, runValidators: true }
+    { new: true, runValidators: true },
   );
 
   if (!updated) return res.status(404).json({ error: "Not found" });
