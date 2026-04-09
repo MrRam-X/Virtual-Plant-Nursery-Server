@@ -4,6 +4,7 @@ import cors from "cors";
 import { connectDB } from "./config/db";
 import productRoutes from "./routes/product.routes";
 import authRoutes from "./routes/auth.routes";
+import userRoutes from "./routes/user.routes";
 import { BASE_URL, ROUTES } from "./appConstant";
 
 dotenv.config();
@@ -18,6 +19,7 @@ app.use(cors());
 // Routes
 app.use(`${BASE_URL}/${ROUTES.PRODUCTS}`, productRoutes);
 app.use(`${BASE_URL}/${ROUTES.AUTH}`, authRoutes);
+app.use(`${BASE_URL}/${ROUTES.ACCOUNT}`, userRoutes);
 
 // Server start
 connectDB().then(() => {

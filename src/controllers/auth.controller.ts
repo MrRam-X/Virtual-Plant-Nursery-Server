@@ -67,6 +67,8 @@ export const loginLocal = async (req: Request, res: Response) => {
         _id: user._id,
         name: user.name,
         email: user.email,
+        address: user.address,
+        avatar: user.avatar,
         token: generateToken(user._id),
       });
     } else {

@@ -1,7 +1,43 @@
-import { Schema, model } from "mongoose";
+import { Schema, model, Document, Types } from "mongoose";
 import bcrypt from 'bcrypt'
 
-const userSchema = new Schema({
+// 1. Define the Address Interface
+export interface IAddress {
+  label: string; // e.g., "Home", "Office"
+  addressLine1: string;
+  addressLine2: string;
+  city?: string;
+  district?: string;
+  state?: string;
+  zipCode?: string;
+  country?: string;
+}
+
+// 2. Define the main User Interface
+export interface IUser extends Document {
+  _id: Types.ObjectId
+  name: string;
+  email: string;
+  password?: string;
+  googleId?: string;
+  githubId?: string;
+  avatar?: string;
+  authProvider: 'local' | 'google' | 'github';
+  address: IAddress[];
+}
+
+const addressSchema = new Schema<IAddress>({
+  label: { type: String, required: true, trim: true },
+  addressLine1: { type: String, default: '' },
+  addressLine2: { type: String, default: '' },
+  city: { type: String, default: '' },
+  district: { type: String, default: '' },
+  state: { type: String, default: '' },
+  zipCode: { type: String, default: '' },
+  country: { type: String, default: '' }
+}, { _id: true });
+
+const userSchema = new Schema<IUser>({
   name: {
     type: String,
     required: true,
@@ -31,7 +67,8 @@ const userSchema = new Schema({
     type: String,
     enum: ['local', 'google', 'github'],
     required: true,
-  }
+  },
+  address:[addressSchema]
 }, { timestamps: true });
 
 // Pre-save hook: Hash password before saving to the database
@@ -45,4 +82,4 @@ userSchema.pre('save', async function (next) {
   next();
 });
 
-export const User = model('User', userSchema);
+export const User = model<IUser>('User', userSchema);
