@@ -3,6 +3,7 @@ import bcrypt from 'bcrypt'
 
 // 1. Define the Address Interface
 export interface IAddress {
+  _id?: Types.ObjectId
   label: string; // e.g., "Home", "Office"
   addressLine1: string;
   addressLine2: string;

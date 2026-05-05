@@ -1,6 +1,7 @@
 import { Response } from "express";
 import { AuthRequest } from "../middleware/auth.middleware";
 import { User } from "../models/user.model";
+import mongoose from "mongoose";
 
 // @desc    Update user profile (Name and Address)
 // @route   PUT /api/account/profile
@@ -246,8 +247,8 @@ export const updateUserAddress = async (
     res.status(500).json({ message: "Server error", error: error.message });
   }
 };
-// @desc    Delete a specific address by its label
-// @route   DELETE /api/account/address/:label
+// @desc    Delete a specific address by its id
+// @route   DELETE /api/account/address/:id
 // @access  Private
 export const deleteUserAddress = async (
   req: AuthRequest,
@@ -266,26 +267,31 @@ export const deleteUserAddress = async (
       return;
     }
 
-    const targetLabel = req.params.label;
+    const targetId = req.params.id;
 
-    // Check if the address actually exists before trying to delete it
+    // Validate ObjectId
+    if (!mongoose.Types.ObjectId.isValid(targetId)) {
+      res.status(400).json({ message: "Invalid address ID" });
+      return;
+    }
+
+    // Check if address exists
     const addressExists = user.address.some(
-      (addr) => addr.label.toLowerCase() === targetLabel.toLowerCase(),
+      (addr) => addr?._id?.toString() === targetId
     );
 
     if (!addressExists) {
       res.status(404).json({
-        message: `Address with the label '${targetLabel}' not found.`,
+        message: `Address with id '${targetId}' not found.`,
       });
       return;
     }
 
-    // Filter out the address that matches the label
+    // Remove the address
     user.address = user.address.filter(
-      (addr) => addr.label.toLowerCase() !== targetLabel.toLowerCase(),
+      (addr) => addr?._id?.toString() !== targetId
     );
 
-    // Save the updated document
     const updatedUser = await user.save();
 
     res.json({
