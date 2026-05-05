@@ -116,8 +116,8 @@ export const addUserAddress = async (
   }
 };
 
-// @desc    Update a specific address by its label (Trims spaces & prevents identical updates)
-// @route   PUT /api/account/address/:label
+// @desc    Update a specific address by its id (Trims spaces & prevents identical updates)
+// @route   PUT /api/account/address/:id
 // @access  Private
 export const updateUserAddress = async (
   req: AuthRequest,
@@ -136,8 +136,24 @@ export const updateUserAddress = async (
       return;
     }
 
-    // Decode and trim the target label from the URL just in case
-    const targetLabel = decodeURIComponent(req.params.label).trim();
+    const targetId = req.params.id;
+
+    // Validate ObjectId
+    if (!mongoose.Types.ObjectId.isValid(targetId)) {
+      res.status(400).json({ message: "Invalid address ID" });
+      return;
+    }
+
+    const addressIndex = user.address.findIndex(
+      (addr) => addr?._id?.toString() === targetId,
+    );
+
+    if (addressIndex === -1) {
+      res.status(404).json({
+        message: `Address with id '${targetId}' does not exist.`,
+      });
+      return;
+    }
 
     // 1. Destructure the updated fields
     let {
@@ -162,17 +178,6 @@ export const updateUserAddress = async (
     country = country?.trim();
 
     // 3. Find the address by the target label
-    const addressIndex = user.address.findIndex(
-      (addr) => addr.label.toLowerCase() === targetLabel.toLowerCase(),
-    );
-
-    if (addressIndex === -1) {
-      res.status(404).json({
-        message: `Address with the label '${targetLabel}' not found.`,
-      });
-      return;
-    }
-
     const existingAddress = user.address[addressIndex];
     let hasChanges = false;
 
@@ -277,7 +282,7 @@ export const deleteUserAddress = async (
 
     // Check if address exists
     const addressExists = user.address.some(
-      (addr) => addr?._id?.toString() === targetId
+      (addr) => addr?._id?.toString() === targetId,
     );
 
     if (!addressExists) {
@@ -289,7 +294,7 @@ export const deleteUserAddress = async (
 
     // Remove the address
     user.address = user.address.filter(
-      (addr) => addr?._id?.toString() !== targetId
+      (addr) => addr?._id?.toString() !== targetId,
     );
 
     const updatedUser = await user.save();
